@@ -1,0 +1,8 @@
+jinja2
+tornado
+pyzmq
+ipython
+sqlalchemy
+alembic
+chaussette
+gevent
