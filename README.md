@@ -22,3 +22,21 @@ For each apli:
   * chaussette
   * gevent
   * sqlalchemy, alembic
+
+
+Installation and Setup
+----
+
+This should be handled via apli_cnc, but for now:
+
+``` sh
+
+git clone
+cd apli_template
+virtualenv --no-site-packages .
+. bin/activate
+pip install -r requirements.txt
+
+chaussette --backend fastgevent --host 0.0.0.0 --port 8080
+```
+
